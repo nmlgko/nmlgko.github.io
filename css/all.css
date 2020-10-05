@@ -165,23 +165,22 @@ nav a:hover{
   padding-bottom: 100px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
-  margin: 0 -15px;
+  justify-content: space-between;
 }
 .works li{
-  display: inline-block;
-  vertical-align: top;
-  margin: 0 30px 30px;
-  flex-basis: 25%;
+  flex-basis: 45%;
   flex-grow: 1;
+  margin-bottom: 30px;
+  padding: 0 15px;
+  
 }
 .works li a{
+  position: relative;
   display: inline-block;
   font-size: 18px;
   line-height: 1.2;
   padding: 10px 0;
-  color: #566473;
-  position: relative;
+  color: #566473;  
 }
 .works li a:hover{
   color: #5cd559;
