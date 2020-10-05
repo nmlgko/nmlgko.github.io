@@ -169,7 +169,6 @@ nav a:hover{
 }
 .works li{
   flex-basis: 45%;
-  flex-grow: 1;
   margin-bottom: 30px;
   padding: 0 15px;
   
@@ -219,12 +218,14 @@ nav a:hover{
 footer{
   width: 100%;
   margin: -100px auto 0;
-  height: 100px;
-  padding-top: 45px;
+}
+.contacts {
+  display: flex;
+  flex-wrap: wrap;
 }
 .contacts li{
-  margin: 0 20px 20px 0;
-  display: inline-block;
+  min-width: 200px;
+  margin-bottom: 20px;
   -webkit-transition: all 0.7s ease;
   -moz-transition: all 0.7s ease;
   -o-transition: all 0.7s ease;
@@ -261,9 +262,9 @@ footer{
   font-weight: bold;
 }
 
-@media screen and (max-width: 570px){
+@media screen and (max-width: 768px){
   .wrapper {
-    padding-top: 60px;
+    padding-top: 30px;
   }
   .works li{
     flex-basis: initial;
